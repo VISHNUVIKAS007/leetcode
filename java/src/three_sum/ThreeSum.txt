@@ -1,0 +1,30 @@
+3Sum
+
+Problem:
+
+Given an array nums of n integers, find all unique triplets in the array which gives the sum of zero.
+
+Note:
+
+The solution set must not contain duplicate triplets.
+
+Example:
+
+plaintext
+
+Input: nums = [-1, 0, 1, 2, -1, -4]
+Output: [[-1, 0, 1], [-1, -1, 2]]
+
+Function Signature:
+
+java
+
+public List<List<Integer>> threeSum(int[] nums) {
+    // Your code here
+}
+
+Explanation:
+
+In the given example, the unique triplets that sum to zero are [-1, 0, 1] and [-1, -1, 2].
+
+This problem often involves sorting the array and using two pointers to efficiently find the triplets. It's a good exercise for understanding how to handle duplicate elements and efficiently search for combinations that satisfy a given condition.
