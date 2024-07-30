@@ -1,5 +1,6 @@
 package three_sum;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -34,6 +35,6 @@ public class ThreeSum {
         }
       }
     }
-    return hashSet.stream().toList();
+    return new ArrayList<>(hashSet);
   }
 }
